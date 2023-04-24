@@ -1,14 +1,14 @@
 ---
-id: 5cc2ve9qkeeglp1tx423zyg
-title: tplexec
+id: ex966vi1oz5kuhdxqzl8nyi
+title: multiTplExec
 desc: ''
-updated: 1682321338887
-created: 1682286708358
+updated: 1682323190678
+created: 1682322170935
 ---
 
-`tplExec(w http.ResponseWriter, filename string, information any) error`
+`tplExec(w http.ResponseWriter, filename string, information any, filename2 string) error`
 # Purpose
-Parses gohtml templates, and with the struct information, it makes an http response.
+Different version of [[main_APIs.tplexec]], used for when you need multiple templates to be parsed at once, 
 # Methods Used
 1. Template.ParseFiles() 
 2. Template.Must()
