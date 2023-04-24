@@ -2,17 +2,13 @@
 id: 5cc2ve9qkeeglp1tx423zyg
 title: tplexec
 desc: ''
-updated: 1682321338887
+updated: 1682330180670
 created: 1682286708358
 ---
 
 `tplExec(w http.ResponseWriter, filename string, information any) error`
 # Purpose
 Parses gohtml templates, and with the struct information, it makes an http response.
-# Methods Used
-1. Template.ParseFiles() 
-2. Template.Must()
-3. *Template.Execute()
 # Parameters
 + w - writer for http response
 + filename - gohtml template to be parsed
