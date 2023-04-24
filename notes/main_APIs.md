@@ -2,7 +2,7 @@
 id: rdsertz920b7ipcdong4bzo
 title: main_APIs
 desc: ''
-updated: 1682321792291
+updated: 1682337654113
 created: 1682286667269
 ---
 
@@ -28,7 +28,7 @@ Where all the handlers for the teacher side are called, and util functions are d
 `dataVal(requestMethod string) bool`
 
 ### Implimentations
-1. EventInfo
-2. Prize
-3. UserData
-4. Winners
+1. EventInfo - teacherEvents.go
+2. Prize - Prizes.go
+3. UserData - LoginSignup.go
+4. Winners - winners.go
